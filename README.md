@@ -1,2 +1,2 @@
-# pwiii-nicolas-oliveira-nextjs
-aula next js
+# pwiii-victor-rodrigues-nextis
+Projeto de Next.js
