@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Portfólio - Nicolas Neri</title>
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body, html {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background: #000;
+      color: #fff;
+    }
+
+    .background-image {
+      background-image: url('fundo.jpg');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      min-height: 100vh;
+    }
+
+    .overlay {
+      background-color: rgba(0, 0, 0, 0.7);
+      min-height: 100vh;
+    }
+
+    header {
+      background-color: #8b008b;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1.5rem 3rem;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.5rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      margin-left: 1.5rem;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .top-section {
+      background-color: #8b008b;
+      padding-bottom: 4rem;
+      position: relative;
+    }
+
+    .white-curve {
+      background-color: #000;
+      border-top-left-radius: 100% 20%;
+      border-top-right-radius: 100% 20%;
+      padding: 4rem 2rem 2rem;
+      max-width: 900px;
+      margin: auto;
+      text-align: center;
+      box-shadow: 0 -5px 15px rgba(0, 0, 0, 0.4);
+      position: relative;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      border: 5px solid #8b008b;
+      object-fit: cover;
+      position: absolute;
+      top: -75px;
+      left: 50%;
+      transform: translateX(-50%);
+      background-color: black;
+    }
+
+    .bio h2 {
+      margin-top: 90px;
+      font-size: 1.8rem;
+      color: #8b008b;
+    }
+
+    .bio h3 {
+      color: #8b008b;
+      margin-bottom: 1rem;
+    }
+
+    .bio p {
+      max-width: 600px;
+      margin: 0.5rem auto;
+      font-size: 1rem;
+      line-height: 1.6;
+      color: #ccc;
+    }
+
+    section {
+      padding: 4rem 2rem;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    section h2 {
+      text-align: center;
+      color: #8b008b;
+      margin-bottom: 2rem;
+    }
+
+    .projects ul {
+      list-style: square;
+      padding-left: 1.5rem;
+      color: #ccc;
+    }
+
+    .contact p {
+      text-align: center;
+      font-size: 1rem;
+      color: #ccc;
+      line-height: 1.8;
+    }
+
+    footer {
+      background-color: #111;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+  <div class="background-image">
+    <div class="overlay">
+      <header>
+        <h1 style="color: #fff">PORTIFOLIO</h1>
+        <nav>
+          <a href="#sobre">Sobre</a>
+          <a href="#projetos">Projetos</a>
+          <a href="#contato">Contato</a>
+        </nav>
+      </header>
+
+      <section id="sobre" class="top-section">
+        <div class="white-curve">
+          <img src="nicolas portifolio.jpg" alt="Foto de perfil" class="profile-img" />
+          <div class="bio">
+            <h2>Nicolas Neri de Oliveira</h2>
+            <h3>Desenvolvedor de Sistemas</h3>
+            <p>Sou um jovem de 22 anos que está cursando Desenvolvimento de Sistemas na ETEC Camargo Aranha.</p>
+            <p>Tenho conhecimentos em redes e infraestruturas, banco de dados, desenvolvimento de aplicações mobile e programação web.</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="projetos" class="projects">
+        <h2>Projetos</h2>
+        <ul>
+          <li>Sistema de controle de estoque em PHP + MySQL</li>
+          <li>Aplicativo Android para controle de tarefas</li>
+          <li>Landing page responsiva com HTML5, CSS3 e JavaScript</li>
+          <li>Banco de dados escolar usando MYsqL</li>
+        </ul>
+      </section>
+
+      <section id="contato" class="contact">
+        <h2>Contato</h2>
+        <p>Email: nicolasnericontato@gmail.com<br>
+           Telefone: (12) 91234-5678<br>
+           LinkedIn: linkedin.com/in/nicolasneri<br>
+           GitHub: github.com/nicolasneri</p>
+      </section>
+
+      <footer>
+        © 2025 Nicolas Neri de Oliveira
+      </footer>
+    </div>
+  </div>
+</body>
+</html>
